@@ -3,10 +3,10 @@
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	height: 100px;
+	height: auto;
 	width: 100%;
 	color: #fff;
-	background-color: #009688;
+	background-color: #596475;
 	padding: 0.01em 16px;
 	font-family: Verdana,sans-serif;
 	font-size: 15px;
