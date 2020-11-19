@@ -1,3 +1,6 @@
+/*Font Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*Custom-CSS*/
 #footer{
 	position: fixed;
@@ -10,7 +13,7 @@
 	padding: 0.01em 16px;
 	font-family: Verdana,sans-serif;
 	font-size: 15px;
-	line-height: 1.5;
+	line-height: 35px;
 }
 .navbar-custom {
   background-color: white;
@@ -32,7 +35,56 @@
 .nav-link:hover{
   color: black;
 }
-
+.title {
+  color: #000000;
+  font-family: 'DM Serif Display', sans-serif;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+.bio1{
+  display: flex;
+  margin: auto;
+  width: 50%;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-bottom: 20px;
+}
+.part2{
+  font-size: 13px;
+  color: #9d9c9c;
+}
+.undertitle{
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  color: #515050;
+}
+.content{
+  display: flex;
+  margin-top: 40px;
+}
+.contenttext{
+  margin: auto;
+  width: 70%;
+  font-family: 'Lora', serif;
+  line-height: 28pt;
+  font-size: 12pt;
+  color: #696969;
+}
+p{
+  font-family: 'Merriweather', sans-serif;
+  color: black;
+}
+h3{
+  font-weight: bold !important;
+}
+.par{
+  margin-bottom: 50px;
+}
+.a{
+  margin: auto;
+  width: 70%;
+}
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
