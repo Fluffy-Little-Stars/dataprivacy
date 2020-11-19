@@ -1,9 +1,11 @@
 /*Font Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /*Custom-CSS*/
 #footer{
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	height: auto;
@@ -15,13 +17,29 @@
 	font-size: 15px;
 	line-height: 35px;
 }
+.author-name{
+	font-family: 'DM Serif Text', serif;
+	/*Might need to play with font size*/
+}
+.article-title{
+	font-family: 'DM Serif Display', serif;
+	font-style: italic;
+}
+.no-padding {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.img-center{
+	margin: auto;    
+    display: block;
+}
+
 .navbar-custom {
   background-color: white;
   box-shadow: 0px 1.3px 4px rgba(0, 0, 0, 0.25);
 }
 .nav-link {
   color: #595757;
-;
 }
 .navbar-brand{
   color: #0c5460;
@@ -84,6 +102,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -117,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  font-family: 'Spectral', serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -405,11 +425,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+	font-size: 5rem;
 }
 
 h2, .h2 {
-  font-size: 2rem;
+	font-size: 4rem;
 }
 
 h3, .h3 {
@@ -4524,7 +4544,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-light .navbar-text {

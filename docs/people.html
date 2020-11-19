@@ -8,22 +8,56 @@
     <!-- Bootstrap CSS-->
 	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	<style>
+		#peoplePanel .row{
+			height: 95vh;
+		}
+		#peoplePanel a{
+			color: white;
+		}
+		#peoplePanel a:hover{
+			color: white;
+			text-decoration: none;
+		}
+		#peoplePanel #Zuboff{
+			background: url("../imgs/Zuboff.png") no-repeat center center;
+			background-size: cover;
+		}
+		#peoplePanel #Zuboff:hover {
+			background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #515151 100%), url("../imgs/Zuboff.png") no-repeat center center;
+			background-size: cover;
+		}
+		#peoplePanel #Snowden{
+			
+			background: url("../imgs/Snowden.png") no-repeat center center;
+			background-size: cover;
+		}
+		#peoplePanel #Snowden:hover {
+			background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #515151 100%), url("../imgs/Snowden.png") no-repeat center center;
+			background-size: cover;
+		}
+		.flex-bottom {
+		  display: flex;
+		  align-items: flex-end;
+		}
+
+	</style>
 
     <title>People</title>
 </head>
 <body>
 <!--Navbar Star-->
 <header>
-	<nav class="navbar navbar-expand-lg navbar-custom">
+	<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
 		<div class="container">
-			<a class="navbar-brand" href="../index.html">Logo Here</a>
+			<a class="navbar-brand mr-auto" href="../index.html">Logo Here</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="col-auto">
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item ">
 							<a class="nav-link" href="../docs/tracking.html">How Tracking Works <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
@@ -38,17 +72,113 @@
 						<li class="nav-item">
 							<a class="nav-link" href="../docs/facebook.html">Social Media</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item active">
 							<a class="nav-link" href="../docs/people.html">People</a>
 						</li>
 					</ul>
 				</div>
-			</div>
 		</div>
 	</nav>
 </header>
-	<h1>People</h1>
 	
+	<div id="peoplePanel" class="container-fluid">
+		<div class="row text-white">
+			<a href="#ZuboffArticle" id="Zuboff" class="col-6 flex-bottom" style="height: 95vh;" data-toggle="collapse" data-target="#ZuboffArticle" aria-expanded="false" aria-controls="ZuboffArticle"><span class="align-text-bottom"><h1>Shoshana Zuboff</h1></span></a>
+			<a href="#SnowdenArticle" id="Snowden" class="col-6 flex-bottom" style="height: 95vh;" data-toggle="collapse" data-target="#SnowdenArticle" aria-expanded="false" aria-controls="SnowdenArticle"><span class="align-text-bottom"><h1>Edward Snowden</h1></span></a>
+		</div>
+	</div>
+	
+	<div id="ZuboffArticle" class="container-fluid collapse">
+		<div class="row justify-content-md-center">
+			<div class="col-6">
+			  <h2 class="article-title">Shoshana Zuboff</h2>
+			</div>
+		</div>
+		<div class="row justify-content-md-center">
+			<div class="col-6" style="white-space:nowrap"><img src="../imgs/Ido-Author-Pic.png" alt="Photo of the Author" style="display:inline;"><h5 class="author-name" style="display: inline; white-space: nowrap; margin-left: 15px;">Written by Ido Tanne</h5></div>
+		</div>
+		<div class="row justify-content-md-center">
+			<div class="col-12 no-padding"><img src="../imgs/xZCJN3BFkWY.png" class="img-fluid vw-100" alt="Responsive image"></div>
+		</div>
+		
+		<div class="row justify-content-md-center">
+			<div class="col-8 " style="white-space: pre-line">
+				<p><strong>Surveillance capitalism</strong>
+					Silicon Valley has been taking personal information and has been turning into profit.</p>
+				<p><strong>Targeted Ads</strong>
+					I have nothing to hide, so there’s nothing to take &#38; I enjoy getting personalized ads.</p>
+				<p><strong>This is a misconception</strong>
+					We think the only information SV has on us in the information we have given them
+					We believe that we have control over this information</p>
+				<p><strong>Did you mean - Google</strong>
+					It takes over 30 days to get an accurate read on how to actually help the user</p>
+				<p><strong>“We use this information to improve our services”</strong>
+					This is true, but even more of it is analyzed to train models or patterns of human behaviors. It can be used to identify the information you’ll most likely look at. This ties in with lookalike modeling</p>
+				<p><strong>Humans have free will</strong>
+					Surveillance capitalism can only be manifested when we are online
+					The difference is that with the information taken from us, we don’t have control over it</p>
+				<p><strong>Strange example</strong>
+					In one example a woman was told by a marketing company that she was pregnant before she even knew. It happened because of a switch from shampoos. She went from an artificial shampoo to a natural smelling one because it’s been proven that pregnant women’s sense get heightened</p>
+				<p><strong>Facebook Massive Contagion Scale Experiments</strong>
+					This was used to see if they could make a user happier or sadder based on subliminal messages and manipulation of text.
+					They discovered that they could do all this experimentation while bypassing user awareness.
+					This is what they found out.
+					We now know that we can manipulate subliminal cues in the online context to change real-world behavior or real world emotion.
+					We can exercise this power these methods while bypassing user awareness.</p>
+				<p><strong>Pokémon Go</strong>
+				While we think that Pokémon Go is a friendly user-safe game that was developed by Nintendo, it was actually invented by Google and is a “cover-up” of sorts to gain information on users.</p>
+				<img src="../imgs/IoYcR-yJ7Sg.png" class="img-fluid img-center" alt="Responsive image">
+				
+				<p>An example is when a user is in a car or moving too quickly the game will prevent you from catching any Pokémon, but in the background google is using this information to see where you’re going, where you are, your average speed and with that information they use it to develop traffic patterns in a city, population on subways, how crowded a restaurant may be.Pokestops have been used as forms of ads to help get the users literally into the store. You can see all Starbucks are in Pokémon Go and whole foods.</p>				
+				<p><strong>Google &#38; Nest</strong>
+					Google will always try to get what it wants and it will misdirect and deny until there is solid evidence shown and proven. When users say they don’t want their personal information being sold, Google responds with well be careful because now we won’t be able to support your device, we won’t prevent systems in your home from being broken, we may not be able to give accurate readings to your smoke detectors. They hold your home hostage, your life hostage, just so you can give information and receive it as well.</p>
+				<img src="../imgs/RFAHj4tI37Y.png" class="img-fluid img-center" alt="Responsive image">
+				<p><strong>Surveillance Capitalism In the Auto Industry</strong>
+					With the innovation of autonomous vehicles they required eyes, so they could see when to stop, but the vehicles also need to connect to a server in order to improve the car’s capabilities of driving. With that connection to the server a driver’s data can now be sold to third-parties and it leads right back to the same dilemma we encountered before.When you pay for privacy you reduce the cost of the product.</p>	
+			</div>
+		</div>
+	</div>
+		
+	<div id="SnowdenArticle" class="container-fluid collapse">
+		<div class="row justify-content-md-center">
+			<div class="col-6">
+			  <h2 class="article-title">Edward Snowden</h2>
+			</div>
+		</div>
+		<div class="row justify-content-md-center">
+			<div class="col-6" style="white-space:nowrap"><img src="../imgs/Ido-Author-Pic.png" alt="Photo of the Author" style="display:inline;"><h5 class="author-name" style="display: inline; white-space: nowrap; margin-left: 15px;">Written by Ido Tanne</h5></div>
+		</div>
+		<div class="row justify-content-md-center">
+			<div class="col-12 no-padding"><img src="../imgs/lVZjvw-u9V8.png" class="img-fluid vw-100" alt="Responsive image"></div>
+		</div>
+		
+		<div class="row justify-content-md-center">
+			<div class="col-8 " style="white-space: pre-line">
+			<p><strong>Who is Edward Snowden?</strong>Edward Snowden is one of America’s most infamous whistleblowers. He worked for America’s National Security Agency &#38; CIA. Snowden started his career as a marine in the US, but that ended shortly after he fractured his leg from falling from his top bunk and found that the strenuous weight and training from boot camp caused micro fractures in his legs. After he enlisted in the CIA to be able to serve his country, Snowden's family has ties into all branches of the US government mainly in the Coast Guard and Special Agencies. Snowden also never finished High School. In Snowden’s Interview with the CIA his response to the question, “Why do you want to join the CIA?” was “... sir, it sounds really cool to have top security clearance.” Snowden started his training at “The Hill” for the CIA in 2006. During Snowden's first months at the hill he finished the aptitude test in just under 48 minutes where it usually takes a common cadet 5 hours.</p>
+			<p>Snowden was seen as a viable asset to the CIA, they knew the digital war to come between the US, China, and Russia. The CIA implemented Snowden to Geneva to secure the CIA systems hosted there for the UN. In his time in Geneva Snowden was tasked with finding a banker that was financially supporting Bin Laden.</p>
+			<img src="../imgs/Glasses-Behind.png" class="img-fluid img-center" alt="Responsive image">
+			<p>XKEYScore was a search interface implemented by the CIA which was used to search anyone’s name and find any (public and private) digital information about them. Snowed first saw XKEYScore in use while in Geneva when a colleague searched up all information related to national security threats. XKEYScore is also able to access people’s computers without their knowledge.</p>
+			<p>After finding more about how the CIA handles private information and the private lives of their citizens, Edward Snowden resigned from the CIA. Snowden became very paranoid with digital cameras after leaving the CIA being very hesitant to have a camera pointed his way.</p>
+			<p>Snowed was enlisted as a consultant for the NSA in Japan where he was enlisted in developing a back up system called Epic Shelter. If a catastrophe happened all information saved on US government servers would be backed up and stored to be brought back later. The NSA wanted to impress the Japanese government with their live drone feeds. The NSA wanted the Japanese government to help them spy on the citizens, but the Japanese government turned down the offer. The NSA went behind their backs and got surveillance access on the citizens anyway. The NSA had access to power plants, hospitals, and power grids in Austria, Brazil, China, Germany, Iran, Japan, Russia, and Venezuela. The US wanted an advantage over nations who would possibly defect and use the information and control over them. Snowden saw the excuse terrorism was for the US, but he saw that the US just wanted supreme power over these nations.</p>
+			<p>While Snowden was in Japan he was assigned to terrorism watch, he surveilled many Americans and all their information and people related to them. He had to remind himself that “I can stop a dirty bomber.” This assignment brought to light how wrong the US was and what they were doing was a huge violation of privacy.</p>
+			<img src="../imgs/Japan-Pic.png" class="img-fluid img-center" alt="Responsive image">
+			<p>After personal life issues that Snowden had to deal with, he moved back to the United States and worked for the CIA under contracts. Snowden enjoyed being home, but when Snowden moved to Maryland his life changed. Snowden had found that higher up NSA officials were complaining about the overreach the agencies were committing. The FBI had raided their homes because they suspected they were a threat to the country. Thomas Andrews Drake is a former senior executive of the U.S. National Security Agency, who attempted to change the NSA from the inside, but when nothing worked he went to the press and the State Department charged him with the Espionage Act. Drake knew he was charged because the State Department knew he was right, and they wanted to keep other whistleblowers quiet.</p>
+			<p>The CIA knew the citizens didn’t want their privacy exposed, but they wanted security. Snowden questioned this but his mentor influenced him to not think like that because the security of the nation was more important than their citizens' privacy. Snowden was offered a position in Hawaii the information of the program there was kept hidden from him until he got there.</p>
+			<p>In Hawaii Sowden was tasked with counterintelligence against the Chinese government. Snowden was put on the NTOC (NSA/CSS Threat Operations Center) division which was in charge of defense against the Chinese. Snowed had found out his software, Epic Shelter, was being used for other programs to which he had no approval over. This is when he came up with the idea of using Epic Shelter to categorize all the programs the NSA uses to bring ease of access to its users. He called the program Heartbeat, after the development of heartbeat Snowden found out that in the year 2011 the US has collected over 3 billion pieces of data from US Citizens, compared to Russia where the NSA collected only 1.5 billion pieces of data.</p>
+			<p>In a meeting between Snowden and his superior, Snowden had been told that the CIA was using the same programs Snowden used on potential terrorists on him and his personal life. After his personal life was in jeopardy, Snowden was ready to blow the top on what the NSA and CIA were doing. He loaded up a micro SD card with all the information which program, heartbeat, had on the NSA put it inside a Rubik cube he brought with him to the office and walked right out with all the information. Later that day he took a flight to Hong Kong and gave the information to journalists for them to publish onto the news.</p>
+			<p>Snowden made sure  that the information published was all about mass surveillance, he did not want current projects or agent names to be unveiled.</p>
+			<p><strong>What made him so infamous?</strong>
+				Edward Snowden as mentioned before is America’s most infamous whistleblower, mainly because he unveiled classified information about the CIA and NSA, but mainly for bringing to light that the NSA was unlawfully surveying their own US Citizens.</p>
+			<p>4 days after the release of all the information collected on the NSA, Snowden came out and told the world about all the work he had against the NSA.</p>
+			<p>Snowden has been charged by the Americans for two counts of violating the Espionage Act of 1917 and theft of government property. On his way to Russia the US State Department revoked his passport leaving stranded in Russia.</p>
+			<p><strong>Where is he today?</strong>
+				After being in Russia for a year under a political Asylum from the US, he was given a residency permit for 3 extra years, and as of 2 days ago Snowden is applying for a Russian Citizenship and has been there ever since the US charged him on June 21, 2013.</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!--Footer-->
 	<div id="footer">
 		<div class="container-fluid">
 			<div class="row justify-content-md-center align-items-center align-middle">
@@ -56,7 +186,7 @@
 					<span class="text-uppercase">Contact Us</span>
 				</div>
 				<div class="col-6 text-center">
-					<span class="">G.T. Web Dev 2020</span>
+					<span>G.T. Web Dev 2020</span>
 				</div>
 				<div class="col-3 text-center">
 					<div class="row">
