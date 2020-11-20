@@ -51,17 +51,15 @@
   color: black;
 }
 .title {
-  color: #000000;
-  font-family: 'DM Serif Display', sans-serif;
   margin: auto;
-  width: 50%;
-  margin-bottom: 50px;
-  margin-top: 60px;
+  width: 510pt;
+  font-family: 'Lora', serif;
+  line-height: 37px;
+  font-size: 22px;
+  color: #0c0c0c;
 }
 .bio1{
   display: flex;
-  margin: auto;
-  width: 50%;
   font-family: 'Nanum Gothic', sans-serif;
   margin-bottom: 20px;
 }
@@ -76,14 +74,14 @@
 }
 .content{
   display: flex;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .contenttext{
   margin: auto;
-  width: 70%;
+  width: 510pt;
   font-family: 'Lora', serif;
-  line-height: 28pt;
-  font-size: 12pt;
+  line-height: 37px;
+  font-size: 22px;
   color: #696969;
 }
 p{
