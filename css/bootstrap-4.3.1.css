@@ -58,15 +58,11 @@
 }
 .contenttext{
   margin: auto;
-  width: 510pt;
+  width: 80%;
   font-family: 'Lora', serif;
   line-height: 37px;
   font-size: 22px;
   color: #696969;
-}
-p{
-  font-family: 'Merriweather', sans-serif;
-  color: black;
 }
 h3{
   font-weight: bold !important;
@@ -177,6 +173,7 @@ p {
   font-family: 'Spectral', serif;
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 abbr[title],
