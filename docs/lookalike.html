@@ -7,49 +7,148 @@
 
     <!-- Bootstrap CSS-->
 	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	<style>
+		.hero-img{
+			background: url("../imgs/LookAlike_Img.png");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+	</style>
 
     <title>Look Alike</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--Navbar Star-->
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
-			<a class="navbar-brand" href="../index.html">OM&amp;DP</a>
-		   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		   <span class="navbar-toggler-icon"></span>
-		   </button>
-		   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			  <ul class="navbar-nav ml-auto">
-				 <li class="nav-item">
-					<a class="nav-link" href="../index.html">Home</a>
-				 </li>
-				 <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Dropdown
-					</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="facebook.html">Social Media</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="legal.html">Law of the Net</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item active" href="lookalike.html">Look-a-Like<span class="sr-only">(current)</span></a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="lowprofile.html">Keeping a Low-Profile</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="people.html">Important People</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="tracking.html">How Tracking Works</a>						
-					</div>
-				 </li>
-			   </ul>
+			<a class="navbar-brand" href="../index.html">Logo Here</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="col-auto">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="../docs/tracking.html">How Tracking Works <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="../docs/lookalike.html">Look Alike</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../docs/lowprofile.html">Keep a Low Profile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../docs/legal.html">Laws</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../docs/facebook.html">Social Media</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../docs/people.html">People</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</nav>
-	<h1>Look Alike</h1>
+</header>
+	<div class="container-fluid">
+		<div class="row justify-content-md-center">
+			<div class="col-5">
+			  <h2 class="article-title">The Social Dilemma</h2>
+			</div>
+		</div>
+		<div class="row justify-content-md-center">
+			<div class="col-5" style="padding-bottom: 1rem;"><img src="../imgs/Ido-Author-Pic.png" alt="Photo of the Author" style="display:inline;">
+				<h5 class="author-name" style="display: inline; white-space: nowrap; margin-left: 15px;">Written by Ido Tanne</h5>			
+			</div>
+			
+			<div class="hero-img col-12" style="height: 500px;"></div>
+		</div>
+				
+		<div class="row justify-content-md-center">
+			<div class="col-5" style="white-space: pre-line">
+				<p><strong>What is Look-alike Modeling?</strong>
+					Look-alike Modeling is the method of finding out who to advertise what to.</p>
+				<p>It can be categorized into three different categories</p>
+				<div class="row align-items-end">
+					<div class="col-4"><img src="../imgs/undraw_Demographic.png" class="img-fluid" alt="Responsive image"><p class="text-center">Demographic</p></div>
+					<div class="col-4"><img src="../imgs/undraw_Psycographic.png" class="img-fluid" alt="Responsive image"><p class="text-center">Psycographic</p></div>
+					<div class="col-4"><img src="../imgs/undraw_behavioral.png" class="img-fluid" alt="Responsive image"><p class="text-center">Behavioral</p></div>
+				</div>
+				<p>Each category has specific details to it as well</p>
+				<p>Demographic has
+					<ul>
+						<li>Age</li>
+						<li>Sex</li>
+						<li>Income Level</li>
+						<li>Marital Status</li>
+					</ul>
+				</p>
+				<p>Psychographic has
+					<ul>
+						<li>Hobbies</li>
+						<li>Interests</li>
+						<li>Habits</li>
+						<li>Attitudes</li>
+					</ul>
+				</p>
+				<p>Behavioral has
+					<ul>
+						<li>Videos Watched</li>
+						<li>Social Media</li>
+						<li>Articles Read</li>
+						<li>Websites Visited</li>
+						<li>Items Bought</li>
+						<li>Keyword Searches</li>
+					</ul></p>
+				<p>Machine Learning AI helps to make behavioral targeting much easier, since it can work around the clock and learn while doing so after spectating 100 different users machine learning AIs can easily predict what a user would like to purchase.</p>
+				<p>Each User has a Crpytographic Hash, which is a privacy protected small file that identifies a user and the things an advertiser knows about them. It is the tool to identify their behavioral lookalikes, It never expires and can’t lose it, and It is also portable, so it can be used on Social media, Phyiscal Mail, and Email.</p>
+				<p>By looking at one user it’s possible to categorize them under a section to where an advertiser can submit their ads to that category.</p>
+			
+				<p><strong>How do these advertisements work?</strong></p>
+				<p>1. Retargeting
+					After the user visits the site their hash key is submitted to the site and from there they’ll receive ads related to that site.</p>
+				<p>When your hash is spread to more than one site the advertiser will produce a higher income</p>
+				<p>2. Create Behavioral Lookalike Audiences</p>
+				<div class="row justify-content-md-center">
+					<img src="../imgs/LookAlike_Chart1.png" class="img-fluid" alt="Responsive image">
+					<p class="text-center">Changing the amount of time you complete this cycle will help optimize your income
+						(The range goes from 2 months to every week)</p>
+				</div>
+				<p>3. Leverage Behavioral Lookalikes from Multiple Platforms</p>
+				<div class="row justify-content-md-center">
+					<img src="../imgs/LookAlike_Chart1.png" class="img-fluid" alt="Responsive image">
+					<p class="text-center">Very similar to the model before, but this time upload to additional platforms to spread the information collection.</p>
+				</div>
+				
+			
+			</div>
+		</div>
+	</div>
 	
+	<!--Footer-->
 	<div id="footer">
-		<div class="container">
-			<div class="row col-12 justify-content-md-center align-items-center">
-				<p>G.T. Web Dev 2020</p>
+		<div class="container-fluid">
+			<div class="row justify-content-md-center align-items-center align-middle">
+				<div class="col-3">
+					<span class="text-uppercase">Contact Us</span>
+				</div>
+				<div class="col-6 text-center">
+					<span>G.T. Web Dev 2020</span>
+				</div>
+				<div class="col-3 text-center">
+					<div class="row justify-content-md-center">
+						<div class="col-4"><span>Email</span></div>
+						<div class="col-4"><span>Twitter</span></div>
+						<div class="col-4"><span>LinkedIn</span></div>
+					</div>					
+				</div>
 			</div>
 		</div>
 	</div>
