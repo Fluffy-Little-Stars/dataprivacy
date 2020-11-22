@@ -1,3 +1,15 @@
+/*Custom JS*/
+$(document).ready(function() {
+    $("#ZuboffArticle").on('shown.bs.collapse', function() {
+        window.location = "#ZuboffArticle";
+    });
+});
+$(document).ready(function() {
+    $("#SnowdenArticle").on('shown.bs.collapse', function() {
+        window.location = "#SnowdenArticle";
+    });
+});
+
 /*!
   * Bootstrap v4.3.1 (https://getbootstrap.com/)
   * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
