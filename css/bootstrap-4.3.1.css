@@ -1,6 +1,8 @@
+/*Font Imports*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nanum+Gothic:wght@400;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*Custom-CSS*/
 #footer{
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	height: auto;
@@ -8,15 +10,87 @@
 	color: #fff;
 	background-color: #596475;
 	padding: 0.01em 16px;
-	font-family: Verdana,sans-serif;
+	font-family: 'DM Serif Text', serif;
 	font-size: 15px;
-	line-height: 1.5;
+	line-height: 35px;
 }
-
-
-
-
-
+.author-name{
+	font-family: 'DM Serif Text', serif;
+	/*Might need to play with font size*/
+}
+.article-title{
+	font-family: 'DM Serif Display', serif;
+	font-style: italic;
+}
+.no-padding {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.img-center{
+	margin: auto;    
+    display: block;
+}
+.title {
+  margin: auto;
+  width: 510pt;
+  font-family: 'Lora', serif;
+  line-height: 37px;
+  font-size: 22px;
+  color: #0c0c0c;
+}
+.bio1{
+  display: flex;
+  font-family: 'Nanum Gothic', sans-serif;
+  margin-bottom: 20px;
+}
+.part2{
+  font-size: 13px;
+  color: #9d9c9c;
+}
+.undertitle{
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  color: #515050;
+}
+.content{
+  display: flex;
+  margin-top: 80px;
+}
+.contenttext{
+  margin: auto;
+  width: 80%;
+  font-family: 'Lora', serif;
+  line-height: 37px;
+  font-size: 22px;
+  color: #696969;
+}
+p{
+  font-family: 'Merriweather', sans-serif;
+  color: black;
+}
+h3{
+  font-weight: bold !important;
+}
+.par{
+  margin-bottom: 50px;
+}
+.a{
+  margin: auto;
+  width: 70%;
+}
+.bio2{
+  margin: auto;
+  width: 30%;
+  font-family: 'Lora', serif;
+  line-height: 28pt;
+  font-size: 12pt;
+  color: #696969;
+}
+.imgside{
+  width: 45px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -66,6 +140,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -99,6 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  font-family: 'Spectral', serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -387,11 +463,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+	font-size: 5rem;
 }
 
 h2, .h2 {
-  font-size: 2rem;
+	font-size: 4rem;
 }
 
 h3, .h3 {
@@ -4175,6 +4251,9 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background-color: white;
+  box-shadow: 0px 1.3px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar > .container,
@@ -4474,19 +4553,19 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #596475;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: #595757;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: black;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -4497,8 +4576,10 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+	color: #596475;
+	font-weight: bold;
 }
+
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
@@ -4506,7 +4587,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-light .navbar-text {
