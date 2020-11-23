@@ -8,11 +8,13 @@
 	height: auto;
 	width: 100%;
 	color: #fff;
-	background-color: #596475;
-	padding: 0.01em 16px;
-	font-family: 'DM Serif Text', serif;
+	background-color: #CCB7AE;
+	padding-top: 30px;
+    padding-bottom: 20px;
+	font-family: "Nanum Gothic", serif;
 	font-size: 15px;
 	line-height: 35px;
+    display: flex;
 }
 .author-name{
 	font-family: 'DM Serif Text', serif;
@@ -36,7 +38,7 @@
 }
 .title {
   margin: auto;
-  width: 510pt;
+  width: 80%;
   font-family: 'Lora', serif;
   line-height: 37px;
   font-size: 22px;
@@ -91,7 +93,16 @@ h3{
   border-radius: 50%;
   margin-bottom: 10px;
 }
-
+.law{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.lawimg{
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 250px;
+}
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
