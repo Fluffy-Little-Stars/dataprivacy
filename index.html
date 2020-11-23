@@ -1,82 +1,201 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS-->
+	<!-- Bootstrap CSS-->
 	<link rel="stylesheet" href="css/bootstrap-4.3.1.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-
-    <title>Home Page</title>
+	<style>
+		#tracking {
+			background: url("imgs/tracking_pic.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		#lookalike {
+			background: url("imgs/marketing_pic.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		#lowprofile {
+			background: url("imgs/lowProfile_pic.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		#legal {
+			background: url("imgs/legal_pic.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		#facebook {
+			background: url("imgs/social_del_pic.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		#people {
+			background: url("imgs/Important_people_pic.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		.article-title{
+			text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+		}
+		.article-card{
+			box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+			padding: 25px 0;
+			margin: 0;
+		}
+	</style>
+	
+	<link href="logo.ico" rel="icon" type="image/x-icon" />
+	
+	<title>Home Page</title>
 </head>
 <body>
 <!--Navbar Star-->
-<header>
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<div class="container">
-		<a class="navbar-brand" href="index.html">Logo Here</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-			<div class="col-auto">
+	<header>
+	  <nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container"> <a class="navbar-brand" href="index.html">Logo Here</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		  <div class="col-auto">
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="docs/tracking.html">How Tracking Works <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="docs/lookalike.html">Look Alike</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="docs/lowprofile.html">Keep a Low Profile</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="docs/legal.html">Laws</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="docs/facebook.html">Social Media</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="docs/people.html">People</a>
-					</li>
-				</ul>
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item"> <a class="nav-link" href="docs/tracking.html">How Tracking Works <span class="sr-only">(current)</span></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="docs/lookalike.html">Look Alike</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="docs/lowprofile.html">Keep a Low Profile</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="docs/legal.html">Laws</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="docs/facebook.html">Social Media</a> </li>
+				<li class="nav-item"> <a class="nav-link" href="docs/people.html">People</a> </li>
+			  </ul>
 			</div>
+		  </div>
+		</div>
+	  </nav>
+	</header>
+
+	<!--Main Site Content-->
+
+	<div class="container-fluid no-padding" style="background-color: #596475; padding: 50px 0;">
+	  <div class="row justify-content-center" style="margin: 0;">
+		<div class="col-10">
+		  <div class="row justify-content-around">
+			<div class="col-6 text-white">
+			  <h2>Website Title</h2>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue sed nunc, iaculis non lectus quis.</p>
+			</div>
+			<div class="col-3"><img src="imgs/Glasses-Behind.png" class="img-fluid" alt="Responsive image"></div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="container-fluid no-padding">
+		<div id="carouselArticles" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselArticles" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselArticles" data-slide-to="1"></li>
+			<li data-target="#carouselArticles" data-slide-to="2"></li>
+			<li data-target="#carouselArticles" data-slide-to="3"></li>
+			<li data-target="#carouselArticles" data-slide-to="4"></li>
+			<li data-target="#carouselArticles" data-slide-to="5"></li>
+		  </ol>
+		  <div class="carousel-inner text-white">
+			<div class="carousel-item active" > <a href="docs/tracking.html">
+			  <div id="tracking" style="height: 500px;">
+				<div class="carousel-caption">
+				  <h2 class="article-title text-left">How Tracking Works</h2>
+				</div>
+			  </div>
+			  </a></div>
+			<div class="carousel-item"> <a href="docs/lookalike.html">
+			  <div id="lookalike" style="height: 500px;">
+				<div class="carousel-caption">
+				  <h2 class="article-title text-left">Look-alike Modeling</h2>
+				</div>
+			  </div>
+			  </a> </div>
+			<div class="carousel-item" > <a href="docs/lowprofile.html">
+			  <div id="lowprofile" style="height: 500px;">
+				<div class="carousel-caption">
+				  <h2 class="article-title text-left">Keeping a Low Profile</h2>
+				</div>
+			  </div>
+			  </a> </div>
+			<div class="carousel-item" > <a href="docs/legal.html">
+			  <div id="legal" style="height: 500px;">
+				<div class="carousel-caption">
+				  <h2 class="article-title text-left">Legal Aspects of Online Privacy</h2>
+				</div>
+			  </div>
+			  </a> </div>
+			<div class="carousel-item" > <a href="docs/facebook.html">
+			  <div id="facebook" style="height: 500px;">
+				<div class="carousel-caption">
+				  <h2 class="article-title text-left">The Social Dilemma</h2>
+				</div>
+			  </div>
+			  </a></div>
+			<div class="carousel-item" > <a href="docs/people.html">
+			  <div id="people" style="height: 500px;">
+				<div class="carousel-caption" >
+				  <h2 class="article-title text-left">Important People</h2>
+				</div>
+			  </div>
+			  </a> </div>
+			<a class="carousel-control-prev" href="#carouselArticles" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselArticles" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+		</div>
+		
+		<div class="row article-card">
+			<div class="container">
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</p>
 			</div>
 		</div>
-	</nav>
-</header>
-	
-	<!--Main Site Content-->
-	
-	<h1>Home Page</h1>
-	
-	<!--Footer-->
-	<div id="footer">
-		<div class="container-fluid">
-			<div class="row justify-content-md-center align-items-center align-middle">
-				<div class="col-3">
-					<span class="text-uppercase">Contact Us</span>
-				</div>
-				<div class="col-6 text-center">
-					<span>G.T. Web Dev 2020</span>
-				</div>
-				<div class="col-3 text-center">
-					<div class="row">
-						<div class="col-4"><span>Email</span></div>
-						<div class="col-4"><span>Twitter</span></div>
-						<div class="col-4"><span>LinkedIn</span></div>
-					</div>					
-				</div>
+		<div class="row article-card">
+			<div class="container">
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</p>
+			</div>
+		</div>
+		<div class="row article-card">
+			<div class="container">
+				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</p>
 			</div>
 		</div>
 	</div>
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.3.1.min.js"></script>
+	<!--Footer-->
+	<div id="footer">
+	  <div class="container-fluid">
+		<div class="row justify-content-md-center align-items-center align-middle">
+		  <div class="col-3"> <span class="text-uppercase">Contact Us</span> </div>
+		  <div class="col-6 text-center"> <span>G.T. Web Dev 2020</span> </div>
+		  <div class="col-3 text-center">
+			<div class="row">
+			  <div class="col-4"><span>Email</span></div>
+			  <div class="col-4"><span>Twitter</span></div>
+			  <div class="col-4"><span>LinkedIn</span></div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
 
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script> 
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.3.1.js"></script>
 </body>

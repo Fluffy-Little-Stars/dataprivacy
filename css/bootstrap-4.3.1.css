@@ -26,6 +26,10 @@
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
+.flex-bottom {
+		  display: flex;
+		  align-items: flex-end;
+}
 .img-center{
 	margin: auto;    
     display: block;
