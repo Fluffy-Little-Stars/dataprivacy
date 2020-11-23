@@ -4288,6 +4288,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  color: #b7b7b7
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4588,8 +4589,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-	color: #596475;
-	font-weight: bold;
+	border-bottom: thin solid #b7b7b7;
 }
 
 
